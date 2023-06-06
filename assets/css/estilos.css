@@ -1,0 +1,138 @@
+*{
+    margin: 10;
+    padding: 0;
+ }
+
+html{ 
+    scroll-behavior: smooth;
+    transition: 0.5;
+}
+
+.container{ 
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 235, 223);
+}
+
+header{
+    display: table;
+    width: 100%;
+    height: 300px;
+    background-color: floralwhite;
+    background-image: url(../img/Alex1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+footer{ 
+    display: table;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(1, 1, 66);
+    color: rgb(253, 153, 71);
+    text-align: center;
+    padding-top: 1.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.cuerpo{ 
+  display: table;
+  width: 100%;
+}
+
+p{ 
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    text-align: justify;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+nav{
+    background-color: rgb(1, 1, 66);
+    color: white;
+}
+
+
+nav  ol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+nav ol li{
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+ 
+nav ol li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 10px;
+    color: rgb(253, 153, 71);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+h1{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(253, 153, 71);
+ }
+ 
+ 
+.cuerpo ul li{ 
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: table;
+    text-align: justify;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+hr{ 
+   border: none;
+   height: 5px;
+   color: burlywood;
+   background-color: burlywood ;
+
+} 
+
+
+.imagen-horizontal{ 
+    display: table;
+    margin: auto auto;
+    width: 300px;
+    height: 200px;
+    border-radius: 5%;
+}
+
+table{ 
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    color: rgb(1, 1, 66);
+    background-color: rgb(252, 252, 252);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    border-color: rgb(253, 153, 71);
+}
+
+table td{
+    text-align: center;
+    width: 100px;
+ }
+
+
